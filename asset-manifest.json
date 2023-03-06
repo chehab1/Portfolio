@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/chehab1/Portfolio/static/css/main.c82dd138.css",
+    "main.js": "/chehab1/Portfolio/static/js/main.813bea98.js",
+    "static/media/project1.png": "/chehab1/Portfolio/static/media/project1.8cd5008b1751e6422d12.png",
+    "static/media/dp.jpg": "/chehab1/Portfolio/static/media/dp.c7e5323138ba84d52d96.jpg",
+    "static/media/GPA.png": "/chehab1/Portfolio/static/media/GPA.1bd67de5fad6db44e037.png",
+    "static/media/Modi-SIC.png": "/chehab1/Portfolio/static/media/Modi-SIC.ab4adc76c47fb4ac73c0.png",
+    "static/media/code2.png": "/chehab1/Portfolio/static/media/code2.991831d0a626b3b8e8b3.png",
+    "index.html": "/chehab1/Portfolio/index.html",
+    "main.c82dd138.css.map": "/chehab1/Portfolio/static/css/main.c82dd138.css.map",
+    "main.813bea98.js.map": "/chehab1/Portfolio/static/js/main.813bea98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c82dd138.css",
+    "static/js/main.813bea98.js"
+  ]
+}
