@@ -1,2 +1,2 @@
 # Portfolio
-Building a Portfolio Website with React and ButterCMS 
+Building a Portfolio Website with React
