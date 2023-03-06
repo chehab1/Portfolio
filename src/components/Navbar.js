@@ -3,7 +3,6 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
-
 export default function Navbar() {
   const [nav, setNav] = useState(false);
   const handleClick = () => {
@@ -82,7 +81,7 @@ export default function Navbar() {
         </li>
       </ul>
       {/* Social icons */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+      <div className="sm:flex lg:flex fixed flex-col top-[35%] left-0 sideBar">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
