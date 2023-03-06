@@ -1,10 +1,11 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import me from '../assets/me.png';
 import dp from '../assets/dp.jpg';
 import { Link } from "react-scroll"; 
 
-export default function Home(){
+export default function Home() {
+  const bioHeader = "Computer engineer";
+  const bio = "Hey, my name is Chéhab. I am a current student at the arab academy for science and technology (AAST) expected graduation is 2024. My study field is computer engineering. I also graduateed from collège Sait-Marc with excellent grades (94%). I am an arabic native speaker and also studied English and French at school. ";
   return (
     <div
     name="home"
@@ -13,10 +14,10 @@ export default function Home(){
     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
       <div className="flex flex-col justify-center h-full">
         <h2 className="text-4xl sm:text-7xl font-bold text-white">
-          I'm a Software Engineer.
+          {bioHeader}
         </h2>
         <p className="text-gray-500 py-4 max-w-md">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+         {bio}
         </p>
         <div>
           <Link

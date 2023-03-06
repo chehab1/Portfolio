@@ -1,6 +1,8 @@
 import React from "react";
 
 const About = () => { 
+  const aboutHeader = "Hi. I'm Chéhab Mohamed Yakoot, nice to meet you.";
+  const description = "A computer engineer, focused on software development. Experience in building web apps that are nice looking, dynamic and responsive using various technologies and frameworks. I have good problem solving technics using data structures and algorithms. Good knowledge about OOP and design patterns. Familiar with building windows apps using various approaches ";
   return (
     <div
       name="about"
@@ -20,17 +22,13 @@ const About = () => {
           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
             <div className="sm:text-right text-4xl font-bold">
               <p>
-                Hi. I'm Chéhab Mohamed Yakoot, nice to meet you. Please take a
-                look around.
+                {aboutHeader}
               </p>
             </div>
             <div>
               <p>
                 {" "}
-                A software developer with experience in building Responsive and
-                Scalable Web apps. I am well-knowledged in UI/UX principles and
-                practices. In addition to software development, I am also a
-                technical writer--simplifying topics/concepts on the web.
+                {description}
               </p>
             </div>
           </div>
